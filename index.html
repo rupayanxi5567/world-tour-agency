@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title> World Tour Agency </title>
+
+<style>
+
+    #naving {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-image: linear-gradient(to right, #8f7212, #dbea0b);
+        height: 60px;
+        
+      }
+
+      #naving a{
+        color: white;
+        padding-left: 20px;
+      }
+
+#box1{
+    border: 3px solid red;
+    max-height: 1000vh;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c25vd3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+#f2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-height: 1000vh;
+    height: 180px;
+    max-width: 100%;
+    width: 550px;
+    background-color: white;
+    margin-top: 435px;
+}
+
+#box2{
+    justify-content: center;
+    align-items: center;
+}
+
+.flexes{
+    border: 3px solid green;
+    width: 300px;
+    max-width: 800px;
+    height: 300px;
+    max-height: 900vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#box3{
+    background-color: rgb(175, 235, 235);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    max-height: 1000vh;
+}
+
+
+#aboutFlex{
+    border: 3px solid red;
+    width: 550px;
+}
+
+
+#bttn{
+    background-color: rgb(175, 235, 235);
+    border: 2px solid rgb(51, 81, 6);
+    color: black;
+}
+
+#box3 a :hover{
+    background-color: grey;
+    
+}
+
+
+.box3Para{
+    font-size: 12px;
+}
+
+#box4{
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#flexi1{
+  border: 3px solid red;
+
+}
+
+#box5{
+  justify-content: center;
+  align-items: center;
+}
+
+.logos{
+  border: 3px solid green;
+  width: 300px;
+  max-width: 3000px;
+  height: 200px;
+  max-height: 5000vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#box6{
+  text-align: center;
+  background-color: rgb(241, 236, 236);
+  width: 100%;
+  padding: 80px;
+}
+
+
+
+#testPara{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+
+#blkBtn{
+  background-color: white;
+  color: black;
+}
+
+
+#blkBtn:hover{
+  background-color: #dbea0b ;
+}
+
+
+#box7{
+  margin-bottom: 0;
+  background-image: linear-gradient(to right, #8f7212, #dbea0b);
+justify-content: center;
+align-items: center;
+
+margin-top: 50px;
+}
+
+
+#formHead{
+  text-align: center;
+}
+
+
+.foots{
+  border: 3px solid red;
+  text-align: center;
+  width: 400px;
+  max-width: 4000px;
+  height: 300px;
+  max-height: 3000vh;
+}
+
+
+#box8{
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(3, 3, 43);
+  color: white;
+  
+}
+
+.firstBox8{
+  padding-top: 30px;
+}
+
+.active{
+  list-style: none;
+  font-size: 12px;
+  
+}
+
+.active a{
+  color: white;
+}
+
+.active :hover{
+  color: rgb(109, 109, 241);
+}
+
+
+.fa-brands{
+  
+  color: white;
+}
+
+
+
+#footLink{
+color: white;
+
+}
+
+.carousel-control-prev-icon{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+  </head>
+  <body>
+   
+    <nav id="naving" class="navbar navbar-light bg-light">
+        <a class="navbar-brand logo " href="Index.html">
+         
+          World Tour Agency
+        </a>
+  
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  id="links"
+                  class="nav-link"
+                  href="About.html"
+                  target="_blank"
+                  >About</a
+                >
+              </li>
+
+          <li class="nav-item">
+            <a
+              id="links"
+              class="nav-link"
+              href="Project.html"
+              target="_blank"
+              >Project</a
+            >
+          </li>
+              <li class="nav-item">
+                <a
+                  id="links"
+                  class="nav-link"
+                  href="services.html"
+                  target="_blank"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  id=""
+                  class="linka nav-link"
+                  href="plans & pricing.html"
+                  target="_blank"
+                  >Plans & Pricing</a
+                >
+              </li>
+  
+  
+              <li class="nav-item">
+                <a
+                  id=""
+                  class="linka nav-link"
+                  href="Contact Us.html"
+                  target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+
+
+              <li class="nav-item">
+                <a
+                
+                  id=""
+                  class="linka nav-link logo"
+                   href="Login.html"
+                  target="_blank"
+                  >
+                  <img class="logo" src="https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNpZ24lMjB1cHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" 
+                  height="30"
+                  width="30"
+                  alt="">
+                  
+                  Login</a
+                >
+              </li>
+
+
+            </ul>
+          </div>
+        </nav>
+      </nav>
+    
+
+
+<div class="d-flex" id="box1">
+
+    <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="p-2 bd-highlight"></div>
+    </div>
+
+    <div id="f2" class="d-flex flex-wrap  flex-row bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+
+            <h6> Developing Innovative Strategies </h6>
+            <h1> ACHIEVING GROWTH </h1>
+            <p>
+              
+                <button type="button" class="btn btn-outline-info btn-lg">Book a Consultation</button>
+            </p>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="d-flex " id="box2">
+
+    <div class="d-flex flex-wrap flex-row bd-highlight mb-3">
+        <div class="p-2 flexes bd-highlight">
+            <h4> SERVICES </h4>
+            <p>
+               I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you 
+            </p>
+            <p>
+                <button type="button" class="btn btn-outline-secondary">More Info</button>
+
+            </p>
+        </div>
+        <div class="p-2 flexes  bd-highlight">
+            <h4> PROJECTS </h4>
+            <p>
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you
+            </p>
+            <p>
+                <button type="button" class="btn btn-outline-secondary">More Info</button>
+
+            </p>
+        </div>
+        <div class="p-2 flexes  bd-highlight">
+            <h4> CLIENTS </h4>
+            <p>
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you
+            </p>
+            <p>
+                <button type="button" class="btn btn-outline-secondary">More Info</button>
+
+            </p>
+        </div>
+      </div>
+
+
+
+</div>
+
+
+
+<div class="d-flex" id="box3">
+
+    <div class="d-flex flex-wrap flex-row bd-highlight mb-3">
+        <div id="aboutFlex" class="p-2 bd-highlight">
+            
+
+            <h4> About Us </h4>
+
+            <p class="box3Para">
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+            
+            ​
+            </p>
+            
+            <p class="box3Para">
+                This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+            </p>
+            
+            <p>
+              <a href="#">
+                <button type="button" id="bttn" class="btn btn-primary btn-lg">Learn More</button>
+              </a>  
+            </p>
+
+        </div>
+       
+      </div>
+
+</div>
+
+
+
+<div class="d-flex " id="box4">
+
+
+    <div id="flexi1" class="d-flex flex-wrap flex-column bd-highlight mb-3">
+        <div class="p-2 bd-highlight"> <h3> OUR CLIENTS </h3> </div>
+    </div>
+  </div>
+  
+
+  <div class="d-flex " id="box5">
+
+    <div class="d-flex flex-wrap flex-row bd-highlight mb-3">
+      <div class="p-2  logos bd-highlight">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU0AAACXCAMAAACm/PkLAAABKVBMVEX///8Xa+//PjAXnFL3tSkAmEkAmEzi9ugAZO+By5IAYe7/OisAZe8Sae//MyKIrO7/Lhv1+vgAXu4goV3/NiaX0qKuxfu20P//Kxfw9Pz3sx72rwAgh/T/Sz//MiD/+vr//vj/9fX/XFMAXO+85cP/pJ//6ej/Jg//a2P/i4b/d3D/qqb+89b/29r+8MhDherU4/3/xsL/nJv/uLX/7Ov/k43b6/z//O7/UUb/1tR3pe6jyfCmyej/Y1s8f/L/gXv6wTTa8PfA2PSDs+pkovRbkuvO6v3q9e98qPoZd+WTvPgTcu8Aji660/pRjuqt3rQ6rF/75Kv82Zn82IeXx/z+7cv7znP6yWD4vUN/tvn2xFT/wL7636BYpPaTvPv80X9guHxErW6948z+/O0cAAAOn0lEQVR4nO2dDVvayBbHSardbF4wZLMYQHmtoqhFRajilVYqrcKFXd+19tq99/t/iDuTmcnrJMQKkrbze9qnJQSc/HNmzpkzJ2MiwWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBYPyypI67ix9Per3eycfF7qfMrJvzA9NKn5wpWkUTZEVRZEGrVBRx6XTYmnW7wkn96eT3N7Nuj8n2QkcWoYxASFlWZIUDwBei0Fn4NOvWBfP5j/nXNvO/z7o9kGHdVFIWNa4+Oj097dXPRE1EknKKIHb6Me30v716/comFmIenmkKp8jaWbvrEK01PBloMocF1U7j2OPf/HseYIn556zbA+yyA7TkZKFH6c/DkYDsE57Qjp19fv7rDeAvYp5/z7o9idSJCPXSRgFj46eBqBD7HBy+bNsi8hs2ztcz7+dDToB2xw2DT7mSiXkqldHLtSw6sVGzDzs5JyyFjomtDhk95e5LNewpxEXNUw2KJNTHnJaqi6irb79Iq55KTNQ8MUUSInTfe2CdihhPMWOiJrJMOcpYmBZBN4+pmPFQs6+hyCcV4dy0EFvLjIeaQySmFsmxpMXYWmYs1DxGflpoRzo7XYmvmHFQsy6jtEa0+U06xmLGQM1D1M+Fx1k1YILMXM3UAM1vxNhNvb+Dmav5KCJ/Hm3UjDmzVjPFIdOM6eTmicxazUVkmkpnNj9+wsxazQ4yTfl0cl9ZWN3ZWNndXWns7EX7wLvN84uLy4uvbzffjT+51V28WvDRRrHyGDVLW40Ns2GrUa/labSQaXJaSB7uSew1anzSyOeTybyq6vvNrTHnF69v7rK5LCI3d3teDDk5NewNBEEUBS+VBXRCmJqlxhqfV3HDltcPvvMCw1gQcDp9MosTB7W8qut51TBUXeJ5XkpWyzsh57+7nDOVzOXAP3MAIOhlkIFmFgaiDLW0sqwEjbjQYDULTUmVJKBkXudhw/Twhn0fuKMrg0l82dZaVZfyem1l5+DgYX3ZkMx2G/tBZlC8zGWBfnffzq+vry++5Ew9wYEL6tlXmqCIg3Z6Md0eaLaeiqIQywxRc8NISrpR3m08bNSkPG82rLpWmMRV22SwaSrj8ppRWAG3XedXyGBZ2NnHzTZ2qedffwDy5W43yevNm9wc0vOL3zxTI5i76qO8TGo4wFlr+bAFsM4KUHNvzQCteI9Hy9Ju0rzPvL482fFziIdNuffsryqBFvNGreQ81qyareaNNcoHvgLtsnPXzkNviZzZTc/JGU4GoZwtG85ac4roStXQ1VwFN1niHT1kdVlH95mP6Cej0SfD5rNjd9hi3meEG1jOZNn3gW9QzDuPEb5DnR2Y7FvX8QyQ0pPv72E5K045qWpuSRIvLbtuc2IZW+dR1OuLwinpMPfP/KI9cJ/5/Lrv+K6K5fRaJ+rVvh69SeR0WydMzHjvOErWuCyWqmYJNi3piS1WddxrVqJdXyR6eDQXPj7vewr7oHXSPuWdGm622nQdvoBi5rz9OWF39rm5on3wCtphxZNIyBBLWLKP0dQ8Ai3I+0TbTeLbPLm+njpTJmObNdg2g+a7C6hL8XzVGZCYmmW/0b7qG7bO7I3dTLiO73eUi5ovVqaouaLC8dHnvVcN1Cy/zt9NRlEmMm42YNMkmqsB7+G+Lu3bV/QOjY0U06QOnWZQLCz4TsXZL8U2Tr+ae7BvJJu+z5KRU+KjXGAkMtilc/LJc76mYPbmfIP+Lm42r9ou6jJrxkH0878SOT+QI6Zqor+6hEQkmjVy+tVsBvSaAmqUbkgTi5IyHCmFeVaEtGvGldWAZlnGuUyM8505NmYv6ef7jLOLlvr/5TuTpGaFPjniU7Nk/nDV19FL61DlpFp7iHyV41kiai6NPzeQAm9aXz7g7RIeOHmVGK9pmt4gyMYaOW/R60chQM1EW/b0LJ+a5q2Ulj2f22rySR7MNHfHZRGexgj7RU54RuYdGZ+vyRbr2K2TgRUbH33YBGwSt55DARQKPCg9HVutw0H51DRDCnewUXg4qialpLo2SbNEDSVqis/Iehyh+XhgIHxgELeOImgcBAWqmSAxUvar+RLlEiheKJFCXjRYTdQvnE1bNbMfBt+cQlJuwVLz6ru/o6S7LI8CHjiJM7jJOi2PgidIGgQP7Utj1NwyeJdt7qyh7MfDhPMdiDRx6s9wQwfqODVJBJ9EsZ27H1OwIvgPRfgSN5GW5kIDp914r5o7zkFodVcydEnl1yc7WtpsEzU5buzAmcpQAMc38uPUxGfw+nv4ivjs4J5ue3VTcJw19M6FIPfIQVmL11418U82wH93ampe0vNTMkuTlJV4FceVzbQGshfhP/ACm7in0+aViAMSI5njF3EywWom7lyTdewqhbT/xCvBPRnyqonnj+rWyjI0S31qZomoW8XCY7p6S/EmvEmxZ43MHQM/u0ecuplJuiZqXgd+4IvLfFGERF0IRGpy1muvmk2S3ABmWT1qTM8sEbil8AaHdvUWhx4gUmxR5RFK3a5JLo9NAc87sJpWEvM88KddutTcxvNxSmmemQNzeHufmji3weelKZuliT1wiv2Q01pnS4QBCfjPcH0iUdMIbu6RRFOTmvQwOXcPBmRd1b9AMFLcBVReNVfwiC01Am/1RDmzuvogSvWmtQDPiYv4APHY+Y3Az2DB0bhpqRkwT3ecgtW8IsbpXVjNaM6GJPxqNvJj7/RE6QuRjNMmLXjUJJlCnZKoweDZkG5mk62pTrYYdL4lOA6iSLJo4BmNoEvXnM32RUh44kBLIk2DjGa7lUizS5+aJP6R/KsVBKwmyjIFrVY4IGoS693WqH29BSKSiiuX6FVzFd/p4GnvhCGLGWA0j5SW86m5RaY6auBkDatZRf3Nin8CkkiWmvbIeoif+xLqzucVwZCpuedwXjULJB2Yn/ziOZWWHcBHKtX2qWll14MHzve6M4a6IcZ5F3Q+mcnbxntVwYFExxo7+yC+8I6kvqwH+cnBWYQJc2/JGckR+dS03FBwi5EXQlMhx8QxMH4nahbtQ0MZPeapVOrp7ePWsM2JijLw5mp8au5YGZdpVMpQyAzsEDJCkYJfTavF+aCuXjbVVPEFFefGdXWUfneHUBlTP858qlsGf6gDvU/Ngu6KdV+AbsXq6+L49SG/mjhbDDynfwXYpCS5r+fSWuYNSHzcZmmmm+kvwTIkkTyLTKlE869krJP4XZ3kWm8YbcfQOXbx0q9mYsNKudGXU9E8XbUcwTurq3+l/wwk9a3/jUyrC0DrL7TaKb+aq6RtYLI+7tImxEiw5aQkZV1Q1LQW0gKM03Tpes0+YBmnc9HcBkWkvuoZwnbwvJ2yAmwZp8RPqWrTS6pjpzTGdXaamtbImaQ1uGC+qzrs1h45qbNL0+kHVMolcK0CnNr636KouUdsEwSdLyRnZiDbci6FRvE0NRPrJIKnRcloEda1CnNt9XVKIsk0zZB5J6k51RZ9b9FqPRpVS07+hTp7Zsnu7IocVmhMVTNRJun1974PHEClq556r3Nreul3RHfANLMo7U4F2yYYPX3xMbWq633ektOgrPk/TCF2SvUcFaZi/TjwRLqaJZ5kEr0z4lXo8X1HE5dkKn5X9LwD+3nWX+9lY+e9NG9qgV5xeGTJyRtHHu12ysHJmufQF205Fe00aOMjupqJUpmka9zWCcv9eIPinS7otZpFGB35KhHd1K1hSeu55xtEzVfzRefhNcux81K1vEGGz8LWLl+djphwmwmHnrJQX6SNnxlcEeBVM1GokeJCR2V2qWlIvC5Ra2rOcyQnfGFr93YO1hvfFEMbapWogIl7xzUd+ofsOfP67ze/fba/Zd3gbT3z+n5tvdl8v7acV42JL6rb9BU78uQUUak/do/JzU9ljrvp+w6Hqyblis8HNEhBubHW2CsAKXea4IhUXQtwpZt3lnleXgNBi5sX8Eg2F5yUx7Rsnyk7Nxj5x9oP6dXr+fn5v//7P/LOg5HkHYLqejKpS5K6P1231B9o9loF3LGronGdpaUOnCBX4NMQinlUHLQpnqrUTKpo2pOvVpf1qpqUktWjkOzN+Z315EAua/7N5uYCIyMTEL8fLizUHYtUdhrJISbq7o4tpkqwKoF3Al5PfXqUGtZl0fUIiWM9yBRS6ZykgypDSo2jpArvugRvv5pfHve80OaN+YgLstBsLnt7HrIS1lo86XCaAG6q7Fzz09ACcOqfV3+4eOXer6u0sU/aJsG2lTdeZHWjlR7JFbQtH2f+QfvziWJFXup97Aa7e5PVh5VaubxcLtd2G1sRFgmLm1+/3X4AfLm5uA5xPp/uO5oIl51FrVLhBgPHHUfzt5QPStt2a0dl3mzbC0XyJq30/ajTgTG9ogw6nU69/ZjuznD7uMWOJiicIHKj/uKnDNQpU7dXDShxfPxIofIOyk1+YbpwzzXgIduuTVXtkE4JX75mOEidVOBegeTRK5ttaz4cJTHLgBx34HxBHFHML1Mn8+E4b90SJ1BCRggo7OmRh/F+iq0fpo+5D2DwU7UnuLx4Io/d/vS0zb4csjsYqqBTohUD/OKg9WklZIO7FJ6wx3H337iBaidC68gfx1kvg4CyRaFlE8h8mW2Op4V8TKjhmc9gsXEzAri8UQvdsx8uEf4kOxBNl0MUnYuUkncbqCaLNyNA9r4K27TW7Okac0LjISXvYT4GPh74vKdufxnI7+cIyWrAPLzGPHoUrDW9wN1B4TbB4nO3JflFyJAcphYgZ0uBKZHiizbqx6VPVlHFHi2ibIFIU6jPPJ39wzCydstQFnx6LoiKorFM8RMYWb85RtZGhy3LDlOf2oqgKD/FfssvSF+wihHgSn6914a/kqszEGSgb4d58yfSOtFkR8mEYj6ADP4VKvVY/iaZuHO8MJA9impC55HZ5XeS2r46OeMEQRZkURDOlk4PmZTPJJU5HqbT3c8s+8ZgMBgMBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBYDB+PP4PgoyJe3D51NsAAAAASUVORK5CYII=" height="180" width="280" alt="">
+      </div>
+      <div class="p-2 logos bd-highlight">
+         <img src="data:image/jpeg;base64,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" height="180" width="280" alt="">
+      </div>
+      <div class="p-2 logos bd-highlight">
+         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAAB6CAMAAAAF6AYEAAAAZlBMVEX///8AAADt7e3h4eHn5+elpaXe3t77+/v09PTq6urU1NSSkpLx8fHHx8etra2zs7NXV1eIiIjOzs57e3spKSk6OjpycnJra2tfX18xMTEYGBi5ubkPDw/AwMCYmJhJSUkiIiJCQkLE1IZ1AAADyElEQVR4nO2cWXeqMBSFGwsyyFhFVJDh///JC3JbIeCY3WYvFt+zD2eb5ORM4eNjYWFhYWFhQQnPNSMhzrrNgGNsDqIl020ImNV2J8QMlXmm+MHXbQySdXQVJta6rQES5D1hwtBtDo5NX5coPd32wDAHwkRs6TYIhSRMhLoNQuGehsKST90WgbASacn2ui1CEUvCZuMZ19JeFKlui1AcJGG7uZyyT3kvBrotQrGXhEW6DUJhSI7xqNsgGKEkbD6x8DBgFK5ue2B40WDFvnTbg8PY9YSd5rNiQ58/G6944aqsCmeTulz4UbaZS7D4TausKlNTtx1KeK6fhf56uOfsLDu7veVyfHPTUAS+88fmvYe1ytLj7pQLkVe7uljbkz+y/W1SfRd68uqYnj3yo+ec5XD+uDnLNRwj28qhccPeX2kx+TmKcsJkEcX97ebuJ3/UULKG/lZW3TC5WTnTaFbEctxRUj38GWVgYkxtsf6KxGZ8vP+ThmLyXGrFfWz1U5RsnuSM0dVw4qogDEv1aiRM11uG09VQ6ZZz5QsqTIiUxY04IOfxw4bFi9y6ed8kobnUwsfGvsKeJseRa22KxCxnbFSRUqTQLeeKBxW21S2nx/0Q90UORE1rCxh8cLVmAqAwrtaM3F5RodYtps8a6fKppuZ8oLCIyH1gLzOiq6whemzws5y42mk4YWQdUBuojGuAAplyctX7kQkM12xqAVTG5UCQTp+rqo8M9BdlfwNSGdc5Qyrj8o1ID8I1UIz0+lxzt8iMmituRKZnFVML5sMAKuMKHC2ksj1Ln+ICUpmg6VS0yNMfSlB5R2xRnykMwTXeW2qikyY/4FGEqHzlAItXLUTB44PBnZfhGS+WH8qpUtF4kRX2oAmiW61GK6PpNSETmf8cdGvqwPapO/KAoShiQwOsb6KAYHgC2s+9SiNophn1byijiEbSXxCWU0wZjF5vAiB5EYQdvLpAEj8i6zwdNYFnbME7fpov2IAnHEXNcFF3gKdSiepz2BHpk245faAnjeaUtax3jw1+FpqZ9g5cMpPzFAw6br/QepFYtxKZ0UdN3iTRLWQMZj9WNGWQHpCYnyJ7kbEB/pGkBCKj/laLavi7j2rhICdJXiZQnA9hqTROoJbP0N1kfVYK0si/Criq3xVGFi6OWU1ea6ckKjLfdf0wLo+TT2nIV6zFHveuD6bfs9vLNuOFJXYePaTvF8TuqN5r+MMsvGSMqSYxoy4+rsr01hVlB4fy8g/kZcqWt9zD8gOzMAP/bnXe+QqDIDhTzVstLCwszJp/vrU0aCfMHS8AAAAASUVORK5CYII=" height="180" width="280" alt="">
+      </div>
+      <div class="p-2 logos bd-highlight">
+         <img src="data:image/png;base64,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" height="180" width="280" alt="">
+      </div>
+    </div>
+  
+    </div>
+
+
+<div class="conTainer" id="box6">
+
+<h3 id="testHead" > TESTIMONIALS </h3>
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p id="testPara" >
+          
+“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+        </p>
+
+        <p>
+          Project Manager
+        </p>
+
+        <p>
+          Dora Bridges
+        </p>
+      </div>
+      <div class="carousel-item">
+        <p id="testPara" >
+          
+          “I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+                  </p>
+          
+                  <p>
+                    Operations Manager
+                  </p>
+          
+                  <p>
+                    Sima Patel
+                  </p>
+      </div>
+      <div class="carousel-item">
+        <p id="testPara" >
+          
+          “I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+                  </p>
+          
+                  <p>
+                   Marketing Director
+                  </p>
+          
+                  <p>
+                    Brad Stevens
+                  </p>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="box7" class="d-flex flex-row bd-highlight mb-3">
+  
+
+<div class="container1">
+
+<h2 id="formHead" > 
+  CONTACT </h2>
+
+
+  <p>
+
+    <form>
+      <div class="row">
+        <div class="col">
+          <label for="First Name">First Name</label>
+          <input  required  type="text" class="form-control" id="First Name" placeholder="First name">
+        </div>
+        <div class="col">
+          <label for="Last Name">Last Name</label>
+          <input  required  type="text" class="form-control" id="Last Name" placeholder="Last name">
+        </div>
+      </div>
+    </form>
+
+  </p>
+
+
+<p>
+
+  <form>
+    <div class="row">
+      <div class="col">
+        <label  for="Email*">Email*</label>
+        
+        <input required type="email" class="form-control" id="Email*" placeholder="Email">
+      </div>
+      <div class="col">
+        <label for="password">password</label>
+        <input required type="password" id="password" class="form-control" placeholder="password">
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <p>
+<a href="#">
+  <input type="submit"  id="blkBtn" class="btn btn-primary btn-lg btn-block" value="Submit">
+      <!-- <button type="button" id="blkBtn" class="btn btn-primary btn-lg btn-block">Submit</button> -->
+    </a>
+
+    </p>
+
+  </form>
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<footer id="box8" class="d-flex" >
+
+  <div class="d-flex flex-wrap flex-row bd-highlight mb-3">
+    <div class="p-2 foots  bd-highlight">
+      
+ <a class="firstBox8"  id="footLink" href="index.html"> <h4 class="firstBox8" > World Tour Agency </h4>  </a>
+
+
+<p class="firstBox8" >
+
+  500 Terry Francine Street,
+
+  San Francisco, CA 94158
+  
+  Mail: info@mysite.com
+  
+  Tel: 123-456-7890
+
+</p>
+
+    </div>
+    <div class="p-2 foots bd-highlight">
+      
+<h5> Menu </h5> 
+
+<p>
+
+  <li class="nav-item active">
+    <a
+      id=""
+      class="linka nav-link"
+      href="about.html"
+      target="_blank"
+      >About <span class="sr-only">(current)</span></a
+    >
+  </li>
+<li class="nav-item active">
+    <a
+      id=""
+      class="linka nav-link "
+      href="projects.html"
+      target="_blank"
+      >Projects <span class="sr-only">(current)</span></a
+    >
+  </li>
+<li class="nav-item active">
+    <a
+      id="links"
+      class="nav-link linka"
+      href="services.html"
+      target="_blank"
+      >Services</a
+    >
+  </li>
+<li class="nav-item active">
+    <a
+      id=""
+      class="linka nav-link"
+      href="plans & pricing.html"
+      target="_blank"
+      >Plans & Pricing</a
+    >
+  </li>
+<li class="nav-item active">
+    <a
+      id=""
+      class="linka nav-link"
+      href="Tools & tips.html"
+      target="_blank"
+      >Tools & Tips</a
+    >
+  </li>
+<li class="nav-item active">
+    <a
+      id=""
+      class="linka nav-link"
+      href="Contact Us.html"
+      target="_blank"
+      >Contact Us</a
+    >
+  </li>
+<li class="nav-item active">
+    <a
+    
+      id=""
+      class="linka nav-link logo"
+       href="Login.html"
+      target="_blank"
+      >
+     
+Login</a
+    >
+  </li>
+
+</p>
+
+    </div>
+    <div class="p-2 foots bd-highlight">
+      
+<h5 class="firstBox8" > Socials </h5>
+
+
+
+<p>
+ 
+  <a href="http://facebook.com"> <i class="fa-brands fa-facebook"></i> </a>
+  <a href="http://twitter.com"> <i class="fa-brands fa-twitter"></i> </a>
+  </p>
+
+  <p  class="firstBox8"  >
+
+    © 2035 by JAMES CONSULTING.
+Powered and secured by Wix
+
+  </p>
+
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
